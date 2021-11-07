@@ -5,63 +5,63 @@ class experimentalPlane   extends Plane
 
     constructor(model, maxSpeed, maxFlightDistance, maxLoadCapacity, type, classificationLevel)  {
         super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
-        this._model = model;
-        this._maxSpeed = maxSpeed;
-        this._maxFlightDistance = maxFlightDistance;
-        this._maxLoadCapacity = maxLoadCapacity;
-        this._type = type;
-        this._classificationLevel = classificationLevel;
+        this.PlaneModel = model;
+        this.PlaneMaxSpeed = maxSpeed;
+        this.PlaneMaxFlightDistance = maxFlightDistance;
+        this.PlaneMaxLoadCapacity = maxLoadCapacity;
+        this.PlaneType = type;
+        this.PlaneClassificationLevel = classificationLevel;
 
     }
 
 
     get model()
     {
-        return this._model;
+        return this.PlaneModel;
     }
 
     set model(value) {
-        this._model = value;
+        this.PlaneModel = value;
     }
 
     get maxSpeed() {
-        return this._maxSpeed;
+        return this.PlaneMaxSpeed;
     }
 
     set maxSpeed(value) {
-        this._maxSpeed = value;
+        this.PlaneMaxSpeed = value;
     }
 
     get maxFlightDistance() {
-        return this._maxFlightDistance;
+        return this.PlaneMaxFlightDistance;
     }
 
     set maxFlightDistance(value) {
-        this._maxFlightDistance = value;
+        this.PlaneMaxFlightDistance = value;
     }
 
     get maxLoadCapacity() {
-        return this._maxLoadCapacity;
+        return this.PlaneMaxLoadCapacity;
     }
 
     set maxLoadCapacity(value) {
-        this._maxLoadCapacity = value;
+        this.PlaneMaxLoadCapacity = value;
     }
 
     get type() {
-        return this._type;
+        return this.PlaneType;
     }
 
     set type(value) {
-        this._type = value;
+        this.PlaneType = value;
     }
 
     get classificationLevel() {
-        return this._classificationLevel;
+        return this.PlaneClassificationLevel;
     }
 
     set classificationLevel(value) {
-        this._classificationLevel = value;
+        this.PlaneClassificationLevel = value;
     }
 }
 
